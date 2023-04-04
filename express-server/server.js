@@ -8,7 +8,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-// Configure session middleware
+// Configure session middleware some
 app.use(
   session({
     secret: "my secret key",
